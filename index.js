@@ -15,7 +15,14 @@ import morgan from 'morgan';
 /**
  * Local variables
  */
-const port = process.env.PORT || 3000;
+const env = process.env.NODE_ENV || 'development';
+if (env === 'production') {
+
+  const port = process.env.PORT || 3000;
+} else if (env === 'development') {
+  const port = process.env.PORT || 8080;
+}
+
 const PATHS = {
   public: path.join(__dirname, 'public'),
   sass: path.join(__dirname, 'sass'),
