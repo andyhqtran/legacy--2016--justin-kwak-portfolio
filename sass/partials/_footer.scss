@@ -1,0 +1,33 @@
+/* Footer */
+.footer {
+  padding: 100px 0;
+  box-sizing: border-box;
+
+  &__info {
+    color: $text-primary;
+    font-family: 'Avenir Next', sans-serif;
+    font-size: 0.875rem;
+    font-weight: $font-semibold;
+    letter-spacing: 2px;
+    line-height: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__credit {
+    @extend .footer__info;
+    color: $text-secondary;
+    font-size: 0.675rem;
+    text-transform: none;
+
+    a {
+      color: $accent;
+      text-decoration: none;
+      font-weight: $font-semibold;
+    }
+  }
+
+  .nav {
+    justify-content: center;
+  }
+}

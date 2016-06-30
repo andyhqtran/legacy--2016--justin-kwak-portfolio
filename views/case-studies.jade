@@ -1,0 +1,29 @@
+extends ./layouts/index
+
+block content
+  case caseStudy
+    when "codesigned"
+      include case-studies/codesigned.html
+    when "codesigned"
+      include case-studies/codesigned.html
+    when "sparked"
+      include case-studies/codesigned.html
+    default
+      a.card(href="/case-studies/codesigned"
+        style="background-image: url('/preview-1.png');")
+        .card__content
+          h5.heading.heading--five CODESIGNED
+          h1.heading.heading--one Modernization of Intranet Solution for Enterprises
+          h3.heading.heading--three Utilization of SharePoint to create a highly customized Intranet solution for enterprises
+      a.card(href="/case-studies/codesigned"
+        style="background-image: url('/preview-1.png');")
+        .card__content
+          h5.heading.heading--five SPARKED
+          h1.heading.heading--one Customer Retention Predictive Analytics Platform
+          h3.heading.heading--three Helping businesses analyze which customers are likely to churn and how to save them
+      a.card(href="/case-studies/codesigned"
+        style="background-image: url('/preview-1.png');")
+        .card__content
+          h5.heading.heading--five TELLURIDE FILM FESTIVAL
+          h1.heading.heading--one Mobile Solutions for a Film Festival
+          h3.heading.heading--three Improving the efficiency of consumer and internal facing mobile apps

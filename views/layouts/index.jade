@@ -1,0 +1,51 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
+    title #{title} | Justin Kwak
+    meta(name="author" content="Andy Tran")
+    meta(name="description" content="")
+    meta(name="keywords" content="")
+    link(rel="stylesheet" href="/normalize.css")
+    link(rel="stylesheet" href="/style.css")
+    script(src="https://use.typekit.net/twl5xkc.js")
+    script try{Typekit.load({ async: true });}catch(e){}
+    block head
+  body
+    header.header
+      .container
+        a.logo(href="/")
+        nav.nav
+          ul.nav__menu
+            li.nav__item(class=route === 'home' ? 'nav__item--active' : '')
+              a.nav__link(href="/") Home
+            li.nav__item(class=route === 'case-studies' ? 'nav__item--active' : '')
+              a.nav__link(href="/case-studies") Case Studies
+            li.nav__item(class=route === 'contact' ? 'nav__item--active' : '')
+              a.nav__link(href="mailto:me@justinkwak.com") Contact
+
+    main.container
+      block content
+
+    footer.footer
+      .container
+        p.footer__info 2016 &copy; Justin Kwak<br> All Rights Reserved.
+        p.footer__credit Developed by <a href="http://andytran.me">Andy Tran</a>
+        nav.nav.nav--social
+          ul.nav__menu
+            li.nav__item
+              a.nav__link.nav__link--twitter(href="http://twitter.com/"): img(src="/twitter.svg")
+            li.nav__item
+              a.nav__link.nav__link--dribbble(href="http://dribbble.com/"): img(src="/dribbble.svg")
+            li.nav__item
+              a.nav__link.nav__link--linkedin(href="http://linkedin.com/"): img(src="/linkedin.svg")
+            li.nav__item
+              a.nav__link.nav__link--behance(href="http://behance.com/"): img(src="/behance.svg")
+            li.nav__item
+              a.nav__link.nav__link--medium(href="http://medium.com/"): img(src="/medium.svg")
+
+    script(src="/jquery.min.js?v=3.0.0")
+    script(src="/scripts.js")
+    block foot

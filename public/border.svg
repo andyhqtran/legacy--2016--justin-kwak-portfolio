@@ -1,0 +1,11 @@
+<svg width="1440" height="6" viewBox="0 0 1440 6" xmlns="http://www.w3.org/2000/svg">
+    <title>Border</title>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#21B3E3" d="M1 0h245l-5 6H-4z"/>
+        <path fill="#F72F6D" d="M252 0h245l-5 6H247z"/>
+        <path fill="#37C9C7" d="M503 0h245l-5 6H498z"/>
+        <path fill="#FF7E00" d="M753 0h245l-5 6H748z"/>
+        <path fill="#21B3E3" d="M1003 0h245l-5 6H998z"/>
+        <path fill="#F72F6D" d="M1254 0h245l-5 6h-245z"/>
+    </g>
+</svg>

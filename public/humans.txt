@@ -1,0 +1,16 @@
+/* TEAM */
+Developer: Andy Tran.
+Site: http://andytran.me
+Twitter: helloandytran
+Location: San Jose, CA
+
+Designer: Justin Kwak.
+site: http://justinkwak.com
+Twitter: kwak_justin
+Location: Atlanta, GA
+
+/* SITE */
+Last update: 2016/21/06
+Standards: HTML5, CSS3, JavaScript, ES2015
+Components: Sass, jQuery, normalize.css, node.js, express.js
+Software: Sublime Text 3
