@@ -10,4 +10,22 @@
     flex-direction: row;
     justify-content: space-between;
   }
+
+
+  @media screen
+    and (max-width: 480px) {
+      &,
+      .container {
+        flex-wrap: wrap;
+      }
+
+      .logo {
+        margin: 0 auto 20px;
+      }
+
+      .nav {
+        width: 100%;
+        justify-content: center;
+      }
+  }
 }

@@ -6,4 +6,9 @@
   .heading--three {
     color: $text-secondary;
   }
+
+  @media screen
+    and (max-width: 768px) {
+      padding: 50px;
+  }
 }

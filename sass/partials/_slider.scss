@@ -1,0 +1,9 @@
+/* Slider */
+.slider {
+  overflow: hidden;
+
+  &,
+  &__wrapper {
+    position: relative;
+  }
+}

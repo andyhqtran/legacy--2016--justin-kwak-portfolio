@@ -3,6 +3,7 @@
  */
 import path from 'path';
 import express from 'express';
+import compression from 'compression';
 import sassMiddleware from 'node-sass-middleware';
 import bodyParser from 'body-parser';
 import morgan from 'morgan';
@@ -21,6 +22,11 @@ const PATHS = {
   views: path.join(__dirname, 'views'),
 };
 const app = express();
+
+/**
+ * Enable compression
+ */
+app.use(compression());
 
 /**
  * Set app to use morgan

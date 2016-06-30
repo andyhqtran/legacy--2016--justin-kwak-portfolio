@@ -11,4 +11,25 @@
 @import 'partials/nav';
 @import 'partials/hero';
 @import 'partials/card';
+@import 'partials/slider';
 @import 'partials/footer';
+
+
+article {
+  h1:first-of-type {
+    max-width: 500px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  h4:first-of-type,
+  h5:first-of-type {
+    text-align: center;
+  }
+
+  h4:first-of-type {
+    margin: 0 0 50px;
+    color: $text-secondary;
+  }
+}
